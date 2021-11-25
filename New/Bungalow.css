@@ -1,0 +1,133 @@
+.navbar {
+  height: 60px;
+  font-family: "Roboto Slab", serif;
+  font-size: x-large;
+  background-color: rgb(66, 66, 66);
+  text-decoration-color: white;
+}
+
+.navbar-brand {
+  font-family: "Roboto Slab", serif;
+  font-size: xx-large;
+  
+}
+
+.content {
+  margin-top: 100px;
+ 
+}
+
+.sidenav {
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(66, 66, 66);
+  overflow-x: hidden;
+  padding-top: 50px;
+  margin-top: 30px;
+  display: block;
+ 
+}
+
+.sidenav h1 {
+  background-color: lightgrey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 14px;
+}
+
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+  background-color: lightgrey;
+}
+
+.jumbotron {
+  border-radius: 20px;
+  margin-left: 220px;
+  margin-right: 12px;
+  margin-top: -5px;
+}
+
+.thumbnail {
+  margin-left: 12px;
+  margin-right: 12px;
+  border-radius: 15px;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 80px;
+}
+
+.content h2 {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 0px;
+}
+.content h4 {
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
+}
+
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0px 20px;
+  opacity: 0.75;
+  background-color: white;
+  margin-left: 80px;
+  
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark {
+  padding-bottom: 5px;
+  margin-right: 0px;
+  padding-left: 180px;
+  background-color: rgb(48, 47, 47);
+  color: white;
+  text-decoration: white;
+  font-family: "Roboto Slab", serif;
+}
+
+a:link {
+  color: rgb(158, 158, 158);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.copyright {
+  padding-top: 20px;
+  color: rgb(158, 158, 158);
+  padding-left: 640px;
+  font-family: "Roboto Slab", serif;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+}
